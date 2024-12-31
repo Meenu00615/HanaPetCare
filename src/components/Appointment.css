@@ -1,0 +1,56 @@
+.appointment-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.appointment-content {
+  flex: 1;
+  text-align: center;
+}
+
+.appointment-image {
+  width: 300px; 
+  cursor: pointer; 
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.appointment-image:hover {
+  transform: scale(1.05); 
+}
+
+.appointment-details {
+  flex: 2;
+  padding-left: 2rem;
+}
+
+.appointment-details h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.appointment-details p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.appointment-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.appointment-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,32 @@
+.blog-page {
+  padding: 20px;
+}
+
+.blog-posts {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.blog-post {
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.blog-post img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.blog-post h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.blog-post p {
+  font-size: 1rem;
+  color: #555;
+}
