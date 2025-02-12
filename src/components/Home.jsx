@@ -117,7 +117,7 @@ const Home = () => {
       id: 2,
       name: "House For Cats and Dogs",
       price: "972",
-      image: "/1pc Pet Bed House For Cats.jpg",
+      image: "/House For Cats and Dogs.jpg",
     },
     {
       id: 3,
