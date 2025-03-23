@@ -61,7 +61,27 @@ const Blog = () => {
           </p>
         </div>
 
+         <div className="blog-post">
+          <img src="/Blog_1.jpeg" alt="Post 8" />
+          <p>
+            Photographed by Meenu Patel
+          </p>
+        </div>
 
+                 <div className="blog-post">
+          <img src="/Blog_2.jpeg" alt="Post 8" />
+          <p>
+            Photographed by Meenu Patel
+          </p>
+        </div>
+
+                 <div className="blog-post">
+          <img src="/Blog_3.jpeg" alt="Post 8" />
+          <p>
+            Photographed by Meenu Patel
+          </p>
+        </div>
+        
       </div>
     </div>
   );
